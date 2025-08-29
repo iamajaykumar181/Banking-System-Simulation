@@ -35,7 +35,7 @@ void load_users_from_file() {
     FILE *file = fopen("users.txt", "r");
     if (!file) return;
     while (fgets(users[user_count].name, sizeof(users[user_count].name), file)) {
-        users[user_count].name[strcspn(users[user_count].name, "\n")] = '\0'; // remove newline
+        users[user_count].name[strcspn(users[user_count].name, "\n")] = '\0'; 
         fscanf(file, "%d\n", &users[user_count].acc_no);
         fgets(users[user_count].password, sizeof(users[user_count].password), file);
         users[user_count].password[strcspn(users[user_count].password, "\n")] = '\0';
@@ -94,7 +94,7 @@ void create_account() {
 
     save_users_to_file(); // save data to file
 
-    system("cls"); // or "clear" if on Linux
+    system("cls"); 
     printf("\t\t\tWELCOME TO ABC BANK\n");
     divider();
     printf("Account created successfully! Please log in to continue.\n\n");
@@ -290,4 +290,5 @@ int main() {
         }
     }
     return 0;
+
 }
