@@ -1,0 +1,163 @@
+                        WELCOME TO ABC BANK
+          --------------------------------------------------
+1. Login
+2. Create Account
+3. Exit
+Enter your choice: 2                         // 2 for creating new account
+
+                Creating Account
+     --------------------------------------
+Enter your name: AjayKumar
+Enter your new account number: 3533411
+Set a password: 1845
+
+Account created successfully! Please log in to continue.
+
+1. Login
+2. Create Account
+3. Exit
+Enter your choice: 1                       // 1 for log in 
+
+                Logging in
+     --------------------------------------
+Enter account number: 3533411
+Enter password: 1845
+
+
+Login successful. Welcome, AjayKumar!
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice: 1                    // 1 For depositing money
+
+
+                Depositing Money
+     --------------------------------------
+Enter your password to continue: 1845
+Enter amount to deposit: 5000
+Deposited successfully. New balance: Rs15000
+
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice: 2                  // 2 for Withdraw money           
+
+                Withdraw Money
+     --------------------------------------
+Enter your password to continue: 1845
+Enter amount to withdraw: 7000
+Withdrawn successfully. New balance: Rs8000
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice: 3                  // 3 to transfer money to other account which is already created.
+
+                Transferring Money
+     --------------------------------------
+Enter your password to continue: 1845
+Enter recipient account number: 7777
+Enter amount to transfer: 2000
+Transferred successfully. New balance: Rs6000
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice: 4                    // 4 to view account details
+
+                Account Details
+     --------------------------------------
+Name: Ajay
+Account No: 3533411
+Balance: Rs6000
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice: 5                 // 5 to see the Transaction History
+
+                Transaction Details
+     --------------------------------------
+Deposited Rs5000
+Date/Time: Fri Aug 29 13:06:15 2025
+
+
+Withdrawn Rs7000
+Date/Time: Fri Aug 29 13:07:27 2025
+
+
+Transferred Rs2000 to account 7777
+Date/Time: Fri Aug 29 13:07:53 2025
+
+
+
+                MAIN MENU
+     --------------------------------------
+1. Deposit
+2. Withdraw
+3. Transfer
+4. View Account
+5. Transaction History
+6. Logout
+Enter your choice:  6                 // 6 for Logout
+
+
+                Logging out...
+1. Login
+2. Create Account
+3. Exit
+Enter your choice: 3                 // Exiting The Program 
+Thank you for using ABC Bank.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
